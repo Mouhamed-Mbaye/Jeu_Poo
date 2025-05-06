@@ -1,0 +1,24 @@
+# Ignore les fichiers de configuration spécifiques à l'environnement
+.env
+
+# Ignore les fichiers de log
+*.log
+
+# Ignore les fichiers temporaires et de cache
+tmp/
+
+# Ignore les fichiers générés par Bundler
+.bundle/
+vendor/
+
+# Ignore les fichiers générés par l'éditeur ou l'IDE
+*.swp
+.vscode/
+
+# Ignore les fichiers de documentation générés
+/doc/api/*
+/doc/app/*
+
+# Ignore les fichiers de couverture de test
+/coverage/
+
